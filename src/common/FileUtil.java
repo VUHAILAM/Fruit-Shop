@@ -26,6 +26,8 @@ public class FileUtil {
         this.filePath = filePath;
     }
 
+    // YenNTHHE141078
+    // fix bug analysis by SonarQube about: try - catch - finally
     public void writeObject(Object serObj) {
 
         try {
@@ -38,9 +40,14 @@ public class FileUtil {
 
         } catch (Exception ex) {
             ex.printStackTrace();
+        } finally {
+            System.out.println("Finally");
         }
+
     }
 
+    // YenNTHHE141078
+    // fix bug analysis by SonarQube about: try - catch - finally
     public void writeObjects(ArrayList<Object> objectList) {
         try {
             FileOutputStream fos = new FileOutputStream(filePath, true);
@@ -60,10 +67,13 @@ public class FileUtil {
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+        } finally {
+            System.out.println("Finally");
         }
-
     }
 
+    // YenNTHHE141078
+    // fix bug analysis by SonarQube about: try - catch - finally
     public static ArrayList<Object> readObjects() {
         ArrayList<Object> objectList = new ArrayList<Object>();
         boolean cont = true;
@@ -88,9 +98,9 @@ public class FileUtil {
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
+        } finally {
+            System.out.println("Finally");
         }
-
         return objectList;
     }
-
 }
