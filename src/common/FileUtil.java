@@ -38,7 +38,10 @@ public class FileUtil {
 
         } catch (Exception ex) {
             ex.printStackTrace();
+        } finally {
+            System.out.println("Finally");
         }
+
     }
 
     public void writeObjects(ArrayList<Object> objectList) {
@@ -60,8 +63,9 @@ public class FileUtil {
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+        } finally {
+            System.out.println("Finally");
         }
-
     }
 
     public static ArrayList<Object> readObjects() {
@@ -88,8 +92,9 @@ public class FileUtil {
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
+        } finally {
+            System.out.println("Finally");
         }
-
         return objectList;
     }
 
