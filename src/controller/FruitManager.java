@@ -26,7 +26,7 @@ public class FruitManager {
                 return;
             }
             String fruitName = DataInput.checkInputString("Enter fruit name: ");
-            double price = DataInput.checkInputDouble("Enter price: ",Double.MIN_VALUE,Double.MAX_VALUE);
+            double price = DataInput.checkInputDouble("Enter price: ", Double.MIN_VALUE, Double.MAX_VALUE);
             int quantity = DataInput.checkInputInt("Enter quantity: ");
             String origin = DataInput.checkInputString("Enter origin: ");
             fruitList.add(new Fruit(fruitId, fruitName, price, quantity, origin));
@@ -48,23 +48,24 @@ public class FruitManager {
                 System.err.println("Id does not exist!");
             } else {
                 String fruitName = DataInput.checkInputString("Enter fruit name: ");
-                double price = DataInput.checkInputDouble("Enter price: ",Double.MIN_VALUE,Double.MAX_VALUE);
+                double price = DataInput.checkInputDouble("Enter price: ", Double.MIN_VALUE, Double.MAX_VALUE);
                 int quantity = DataInput.checkInputInt("Enter quantity: ");
                 String origin = DataInput.checkInputString("Enter origin: ");
                 for (Fruit fruit : fruitList) {
                     if (fruit.getFruitId().equals(fruitId)) {
-                fruit.setFruitName(fruitName);
-                fruit.setPrice(price);
-                fruit.setQuantity(quantity);
-                fruit.setOrigin(origin);
-            }
- 
-                }   
-        FruitView.displayListFruit(fruitList);
+                        fruit.setFruitName(fruitName);
+                        fruit.setPrice(price);
+                        fruit.setQuantity(quantity);
+                        fruit.setOrigin(origin);
+                    }
+
+                }
+                FruitView.displayListFruit(fruitList);
             }
             break;
         }
     }
+
     public void deleteFruit() {
         while (true) {
             String fruitId = DataInput.checkInputString("Enter fruit id: ");
@@ -107,7 +108,7 @@ public class FruitManager {
         }
         return null;
     }
-    
+
     public void saveToFile() {
         try (FileOutputStream fos = new FileOutputStream(new File(AppConstant.FRUIT_DATA))) {
             for (Fruit fruit : fruitList) {
@@ -118,7 +119,7 @@ public class FruitManager {
         } catch (IOException ex) {
         }
     }
-    
+
     public void readFruitListFromFile() {
         File fi = new File(AppConstant.USER_DATA);
         fruitList.clear();
@@ -129,7 +130,7 @@ public class FruitManager {
                 String[] fruitInfo = line.split("\\|");
                 listFruitRaw.add(fruitInfo);
             }
-            for(int i = 0; i < listFruitRaw.size(); i++) {
+            for (int i = 0; i < listFruitRaw.size(); i++) {
                 Fruit f = new Fruit();
                 f.setFruitId(listFruitRaw.get(i)[0].trim());
                 f.setFruitName(listFruitRaw.get(i)[1].trim());
