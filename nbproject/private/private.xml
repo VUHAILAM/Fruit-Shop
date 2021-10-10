@@ -2,22 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/controller/OrderManager.java</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/view/UserView.java</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/common/DataInput.java</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/controller/UserManager.java</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/view/OrderView.java</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/common/AppConstant.java</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/view/Data/user.dat</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/controller/FruitManager.java</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/common/FileUtil.java</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/view/FruitView.java</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/MainApp.java</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/model/User.java</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/model/Order.java</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/view/Data/fruit.dat</file>
-            <file>file:/D:/HAI_LAM/SWT301/Lab1/FruitShop_Sources/src/model/Fruit.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
