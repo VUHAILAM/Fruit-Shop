@@ -45,7 +45,7 @@ public class DataInput {
 
     //check user input number limit
     //YenNTHHE141078
-    public static int checkInputIntLimit(int min, int max) {
+    public static int checkInputIntLimit (int min, int max) throws NumberFormatException{
         //loop until user input correct
         while (true) {
             if (min > max) {
