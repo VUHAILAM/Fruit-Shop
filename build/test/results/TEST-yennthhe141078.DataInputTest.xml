@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="4" failures="0" hostname="ThanhLong" name="lamvhhe130764.OrderManagerTest" skipped="0" tests="2" time="0.094" timestamp="2021-10-10T14:58:57">
+<testsuite errors="1" failures="0" hostname="ThanhLong" name="yennthhe141078.DataInputTest" skipped="0" tests="1" time="0.0" timestamp="2021-10-10T14:57:06">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="US" />
@@ -8,7 +8,7 @@
     <property name="libs.DataBindingME.src" value="C:\Program Files\NetBeans 8.2 RC\mobility\sources\netbeans_databindingme-src.zip" />
     <property name="javac.test.sourcepath" value="C:\Users\Dao Thanh Long\Desktop\Fruit-Shop\build\empty" />
     <property name="libs.spring-webmvc4.0.src" value="" />
-    <property name="javac.includes" value="lamvhhe130764/OrderManagerTest.java" />
+    <property name="javac.includes" value="yennthhe141078/DataInputTest.java" />
     <property name="ant.core.lib" value="C:\Program Files\NetBeans 8.2 RC\extide\ant\lib\ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="libs.jsp-compilation.javadoc" value="" />
@@ -43,7 +43,7 @@
     <property name="libs.hamcrest.classpath" value="C:\Program Files\NetBeans 8.2 RC\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="libs.javac-api.javadoc" value="" />
     <property name="os.name" value="Windows 10" />
-    <property name="test.class" value="lamvhhe130764.OrderManagerTest" />
+    <property name="test.class" value="yennthhe141078.DataInputTest" />
     <property name="libs.beans-binding.classpath" value="C:\Program Files\NetBeans 8.2 RC\java\modules\ext\beansbinding-1.2.1.jar" />
     <property name="libs.javaee-endorsed-api-7.0.maven-pom" value="" />
     <property name="ap.proc.none.internal" value="" />
@@ -68,7 +68,7 @@
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
     <property name="file.reference.byte-buddy-agent-1.11.19.jar" value="C:\Users\Dao Thanh Long\Desktop\jar_files" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner lamvhhe130764.OrderManagerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Dao Thanh Long\Desktop\Fruit-Shop\build\test\results\TEST-lamvhhe130764.OrderManagerTest.xml crashfile=C:\Users\Dao Thanh Long\Desktop\Fruit-Shop\build\junitvmwatcher4431647444755068322.properties propsfile=C:\Users\Dao Thanh Long\Desktop\Fruit-Shop\build\junit2723039104617525226.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner yennthhe141078.DataInputTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Dao Thanh Long\Desktop\Fruit-Shop\build\test\results\TEST-yennthhe141078.DataInputTest.xml crashfile=C:\Users\Dao Thanh Long\Desktop\Fruit-Shop\build\junitvmwatcher7619740937157828106.properties propsfile=C:\Users\Dao Thanh Long\Desktop\Fruit-Shop\build\junit2294772427731816209.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -96,7 +96,7 @@
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed" />
     <property name="libs.Comet-GlassFish-v3.maven-pom" value="" />
     <property name="libs.groovy-all.src" value="" />
-    <property name="test.includes" value="lamvhhe130764/OrderManagerTest.java" />
+    <property name="test.includes" value="yennthhe141078/DataInputTest.java" />
     <property name="&gt;&gt;&gt;&gt;&gt;&gt;&gt;" value="bc0e8871c0f413bb30ae871bfad5a29cb5bd3ada" />
     <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans 8.2 RC\platform\core\asm-all-5.0.1.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\core-base.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\core.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\core-base_ja.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\core-base_pt_BR.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\core-base_ru.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\core-base_zh_CN.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\core_ja.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\core_pt_BR.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\core_ru.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\core_zh_CN.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\org-netbeans-libs-asm_ja.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\org-netbeans-libs-asm_pt_BR.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\org-netbeans-libs-asm_ru.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\org-netbeans-libs-asm_zh_CN.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\org-openide-filesystems-compat8_ja.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\org-openide-filesystems-compat8_pt_BR.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\org-openide-filesystems-compat8_ru.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\org-openide-filesystems-compat8_zh_CN.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files\NetBeans 8.2 RC\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files\NetBeans 8.2 RC\nb\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans 8.2 RC\nb\core\locale\core_nb.jar;C:\Program Files\NetBeans 8.2 RC\nb\core\locale\core_nb_ja.jar;C:\Program Files\NetBeans 8.2 RC\nb\core\locale\core_nb_pt_BR.jar;C:\Program Files\NetBeans 8.2 RC\nb\core\locale\core_nb_ru.jar;C:\Program Files\NetBeans 8.2 RC\nb\core\locale\core_nb_zh_CN.jar;C:\Program Files\NetBeans 8.2 RC\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files\NetBeans 8.2 RC\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files\NetBeans 8.2 RC\nb\core\locale\org-netbeans-upgrader_ru.jar;C:\Program Files\NetBeans 8.2 RC\nb\core\locale\org-netbeans-upgrader_zh_CN.jar" />
     <property name="java.vm.specification.version" value="1.8" />
@@ -116,7 +116,7 @@
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="\" />
     <property name="libs.Java-EE-GlassFish-v3-Prelude.maven-pom" value="" />
-    <property name="javac.includesfile.binary" value="C:\Users\Dao Thanh Long\Desktop\Fruit-Shop\null777058682" />
+    <property name="javac.includesfile.binary" value="C:\Users\Dao Thanh Long\Desktop\Fruit-Shop\null1446162488" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
     <property name="javac.test.processorpath" value="C:\Users\Dao Thanh Long\Desktop\mockito-core-4.0.0.jar:C:\Users\Dao Thanh Long\Desktop\jar_files:C:\Users\Dao Thanh Long\Desktop\jar_files:C:\Users\Dao Thanh Long\Desktop\jar_files:C:\Users\Dao Thanh Long\Desktop\jar_files:C:\Users\Dao Thanh Long\Desktop\jar_files:build/classes:C:\Program Files\NetBeans 8.2 RC\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2 RC\platform\modules\ext\hamcrest-core-1.3.jar" />
@@ -130,7 +130,7 @@
     <property name="libs.hibernate4-persistencemodelgen.javadoc" value="" />
     <property name="libs.jaxb.javadoc" value="C:\Program Files\NetBeans 8.2 RC\ide\docs\jaxb-api-doc.zip" />
     <property name="libs.struts.classpath" value="C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\antlr-2.7.2.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\bsf-2.3.0.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\commons-beanutils-1.8.0.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\commons-chain-1.2.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\commons-digester-1.8.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\commons-fileupload-1.1.1.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\commons-io-1.1.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\commons-logging-1.0.4.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\commons-validator-1.3.1.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\jstl-1.0.2.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\oro-2.0.8.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\standard-1.0.6.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\struts-core-1.3.10.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\struts-el-1.3.10.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\struts-extras-1.3.10.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\struts-faces-1.3.10.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\struts-mailreader-dao-1.3.10.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\struts-scripting-1.3.10.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\struts-taglib-1.3.10.jar;C:\Program Files\NetBeans 8.2 RC\enterprise\modules\ext\struts\struts-tiles-1.3.10.jar" />
-    <property name="javac.includes.binary" value="C:\Users\Dao Thanh Long\Desktop\Fruit-Shop\build\test\classes\lamvhhe130764\OrderManagerTest.class" />
+    <property name="javac.includes.binary" value="C:\Users\Dao Thanh Long\Desktop\Fruit-Shop\build\test\classes\yennthhe141078\DataInputTest.class" />
     <property name="ant.home" value="C:\Program Files\NetBeans 8.2 RC\extide\ant" />
     <property name="libs.junit_4.src" value="C:\Program Files\NetBeans 8.2 RC\platform\docs\junit-4.12-sources.jar" />
     <property name="libs.testng.classpath" value="C:\Program Files\NetBeans 8.2 RC\platform\modules\ext\testng-6.8.1-dist.jar" />
@@ -450,90 +450,14 @@
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2 RC\enterprise\docs\javaee-doc-api.jar" />
     <property name="" value="======" />
   </properties>
-  <testcase classname="lamvhhe130764.OrderManagerTest" name="testUpdateOrder" time="0.047">
-    <error message="Could not initialize plugin: interface org.mockito.plugins.MockMaker (alternate: null)" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not initialize plugin: interface org.mockito.plugins.MockMaker (alternate: null)
-	at org.mockito.internal.configuration.plugins.PluginLoader$1.invoke(PluginLoader.java:88)
-	at com.sun.proxy.$Proxy7.createStaticMock(Unknown Source)
-	at org.mockito.internal.util.MockUtil.createStaticMock(MockUtil.java:147)
-	at org.mockito.internal.MockitoCore.mockStatic(MockitoCore.java:99)
-	at org.mockito.Mockito.mockStatic(Mockito.java:2156)
-	at org.mockito.Mockito.mockStatic(Mockito.java:2093)
-	at lamvhhe130764.OrderManagerTest.setUp(OrderManagerTest.java:41)
-Caused by: java.lang.IllegalStateException: Internal problem occurred, please report it. Mockito is unable to load the default implementation of class that is a part of Mockito distribution. Failed to load interface org.mockito.plugins.MockMaker
-	at org.mockito.internal.configuration.plugins.DefaultMockitoPlugins.create(DefaultMockitoPlugins.java:81)
-	at org.mockito.internal.configuration.plugins.DefaultMockitoPlugins.getDefaultPlugin(DefaultMockitoPlugins.java:55)
-	at org.mockito.internal.configuration.plugins.PluginLoader.loadPlugin(PluginLoader.java:79)
-	at org.mockito.internal.configuration.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at org.mockito.internal.configuration.plugins.PluginRegistry.&lt;init&gt;(PluginRegistry.java:27)
-	at org.mockito.internal.configuration.plugins.Plugins.&lt;clinit&gt;(Plugins.java:20)
-	at org.mockito.internal.util.MockUtil.&lt;clinit&gt;(MockUtil.java:28)
-Caused by: java.lang.reflect.InvocationTargetException
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.mockito.internal.configuration.plugins.DefaultMockitoPlugins.create(DefaultMockitoPlugins.java:79)
-Caused by: org.mockito.exceptions.base.MockitoInitializationException: 
-It seems like you are running Mockito with an incomplete or inconsistent class path. Byte Buddy could not be loaded.
-
-Byte Buddy is available on Maven Central as &apos;net.bytebuddy:byte-buddy&apos; with the module name &apos;net.bytebuddy&apos;.
-For the inline mock maker, &apos;net.bytebuddy:byte-buddy-agent&apos; with the module name &apos;net.bytebuddy.agent&apos; is also required.
-Normally, your IDE or build tool (such as Maven or Gradle) should take care of your class path completion but 
-	at org.mockito.internal.exceptions.Reporter.missingByteBuddyDependency(Reporter.java:1127)
-	at org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker.&lt;init&gt;(ByteBuddyMockMaker.java:31)
-Caused by: java.lang.NoClassDefFoundError: net/bytebuddy/dynamic/loading/ClassInjector$UsingReflection
-	at org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader.&lt;init&gt;(SubclassInjectionLoader.java:31)
-	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.&lt;init&gt;(SubclassByteBuddyMockMaker.java:33)
-	at org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker.&lt;init&gt;(ByteBuddyMockMaker.java:29)
-Caused by: java.lang.ClassNotFoundException: net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection
+  <error message="yennthhe141078.DataInputTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: yennthhe141078.DataInputTest
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
 </error>
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at lamvhhe130764.OrderManagerTest.tearDown(OrderManagerTest.java:46)
-</error>
-  </testcase>
-  <testcase classname="lamvhhe130764.OrderManagerTest" name="testShopping" time="0.0">
-    <error message="Could not initialize plugin: interface org.mockito.plugins.MockMaker (alternate: null)" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Could not initialize plugin: interface org.mockito.plugins.MockMaker (alternate: null)
-	at org.mockito.internal.configuration.plugins.PluginLoader$1.invoke(PluginLoader.java:88)
-	at com.sun.proxy.$Proxy7.createStaticMock(Unknown Source)
-	at org.mockito.internal.util.MockUtil.createStaticMock(MockUtil.java:147)
-	at org.mockito.internal.MockitoCore.mockStatic(MockitoCore.java:99)
-	at org.mockito.Mockito.mockStatic(Mockito.java:2156)
-	at org.mockito.Mockito.mockStatic(Mockito.java:2093)
-	at lamvhhe130764.OrderManagerTest.setUp(OrderManagerTest.java:41)
-Caused by: java.lang.IllegalStateException: Internal problem occurred, please report it. Mockito is unable to load the default implementation of class that is a part of Mockito distribution. Failed to load interface org.mockito.plugins.MockMaker
-	at org.mockito.internal.configuration.plugins.DefaultMockitoPlugins.create(DefaultMockitoPlugins.java:81)
-	at org.mockito.internal.configuration.plugins.DefaultMockitoPlugins.getDefaultPlugin(DefaultMockitoPlugins.java:55)
-	at org.mockito.internal.configuration.plugins.PluginLoader.loadPlugin(PluginLoader.java:79)
-	at org.mockito.internal.configuration.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at org.mockito.internal.configuration.plugins.PluginRegistry.&lt;init&gt;(PluginRegistry.java:27)
-	at org.mockito.internal.configuration.plugins.Plugins.&lt;clinit&gt;(Plugins.java:20)
-	at org.mockito.internal.util.MockUtil.&lt;clinit&gt;(MockUtil.java:28)
-Caused by: java.lang.reflect.InvocationTargetException
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.mockito.internal.configuration.plugins.DefaultMockitoPlugins.create(DefaultMockitoPlugins.java:79)
-Caused by: org.mockito.exceptions.base.MockitoInitializationException: 
-It seems like you are running Mockito with an incomplete or inconsistent class path. Byte Buddy could not be loaded.
-
-Byte Buddy is available on Maven Central as &apos;net.bytebuddy:byte-buddy&apos; with the module name &apos;net.bytebuddy&apos;.
-For the inline mock maker, &apos;net.bytebuddy:byte-buddy-agent&apos; with the module name &apos;net.bytebuddy.agent&apos; is also required.
-Normally, your IDE or build tool (such as Maven or Gradle) should take care of your class path completion but 
-	at org.mockito.internal.exceptions.Reporter.missingByteBuddyDependency(Reporter.java:1127)
-	at org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker.&lt;init&gt;(ByteBuddyMockMaker.java:31)
-Caused by: java.lang.NoClassDefFoundError: net/bytebuddy/dynamic/loading/ClassInjector$UsingReflection
-	at org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader.&lt;init&gt;(SubclassInjectionLoader.java:31)
-	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.&lt;init&gt;(SubclassByteBuddyMockMaker.java:33)
-	at org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker.&lt;init&gt;(ByteBuddyMockMaker.java:29)
-Caused by: java.lang.ClassNotFoundException: net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-</error>
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at lamvhhe130764.OrderManagerTest.tearDown(OrderManagerTest.java:46)
-</error>
-  </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
