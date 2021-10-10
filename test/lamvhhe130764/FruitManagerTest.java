@@ -22,7 +22,7 @@ import static org.mockito.Mockito.*;
  * @author lamvu
  */
 public class FruitManagerTest {
-    MockedStatic<DataInput> mockData = mockStatic(DataInput.class);
+    MockedStatic<DataInput> mockData;
     public FruitManagerTest() {
     }
     
@@ -36,10 +36,12 @@ public class FruitManagerTest {
     
     @Before
     public void setUp() {
+        mockData = mockStatic(DataInput.class);
     }
     
     @After
     public void tearDown() {
+        mockData.close();
     }
     
     public void setupMockAddFruitObject() {

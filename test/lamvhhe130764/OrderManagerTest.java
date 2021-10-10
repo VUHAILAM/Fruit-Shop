@@ -24,7 +24,7 @@ import static org.mockito.Mockito.mockStatic;
  * @author lamvu
  */
 public class OrderManagerTest {
-    MockedStatic<DataInput> mockData = mockStatic(DataInput.class);
+    MockedStatic<DataInput> mockData;
     public OrderManagerTest() {
     }
     
@@ -38,10 +38,12 @@ public class OrderManagerTest {
     
     @Before
     public void setUp() {
+        mockData = mockStatic(DataInput.class);
     }
     
     @After
     public void tearDown() {
+        mockData.close();
     }
 
     /**
