@@ -1,10 +1,15 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
-package lamvhhe130764;
+package tuandphe1536893;
 
-import java.util.concurrent.TimeUnit;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import model.Fruit;
 import model.Fruit;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -15,40 +20,43 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author lamvu
+ * @author Asus
  */
 public class FruitTest {
-    
+    private List<String> list;
     public FruitTest() {
     }
     
     @BeforeClass
     public static void setUpClass() {
+        System.out.println("@BeforeClass - runOnceBeforeClass");
     }
     
     @AfterClass
     public static void tearDownClass() {
+        System.out.println("@AfterClass - runOnceAfterClass");
     }
     
     @Before
     public void setUp() {
+        System.out.println("@Before - runBeforeTestMethod");
     }
     
     @After
     public void tearDown() {
+        System.out.println("@After - runAfterTestMethod");
     }
 
-    /**
-     * Test of getFruitId method, of class Fruit.
-     */
+    
     @Test(timeout= 1000)
     public void testGetFruitId() throws InterruptedException {
-        System.out.println("getFruitId");
+        System.out.println("testGetFruitId");
         Fruit instance = new Fruit();
         instance.setFruitId("12");
         String expResult = "12";
         String result = instance.getFruitId();
         assertEquals(expResult, result);
+        System.out.println(result);
         // TODO review the generated test code and remove the default call to fail.
     }
 
@@ -63,6 +71,7 @@ public class FruitTest {
         instance.setFruitId(fruitId);
         // TODO review the generated test code and remove the default call to fail.
         assertEquals(fruitId, instance.getFruitId());
+        System.out.println(fruitId);
     }
 
     /**
@@ -76,6 +85,7 @@ public class FruitTest {
         instance.setFruitName(fruitName);
         // TODO review the generated test code and remove the default call to fail.
         assertEquals(fruitName, instance.getFruitName());
+        System.out.println(fruitName);
     }
 
     /**
@@ -89,6 +99,7 @@ public class FruitTest {
         instance.setQuantity(quantity);
         // TODO review the generated test code and remove the default call to fail.
         assertEquals(quantity, instance.getQuantity());
+        System.out.println(quantity);
     }
 
     /**
@@ -102,6 +113,7 @@ public class FruitTest {
         instance.setOrigin(origin);
         // TODO review the generated test code and remove the default call to fail.
         assertEquals(origin, instance.getOrigin());
+        System.out.println(origin);
     }
-    
+
 }

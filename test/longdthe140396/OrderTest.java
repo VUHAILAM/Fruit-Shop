@@ -2,10 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
  */
-package lamvhhe130764;
+package longdthe140396;
 
-import java.util.concurrent.TimeUnit;
-import model.Fruit;
+import lamvhhe130764.*;
+import model.Order;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -17,9 +17,9 @@ import static org.junit.Assert.*;
  *
  * @author lamvu
  */
-public class FruitTest {
+public class OrderTest {
     
-    public FruitTest() {
+    public OrderTest() {
     }
     
     @BeforeClass
@@ -39,69 +39,42 @@ public class FruitTest {
     }
 
     /**
-     * Test of getFruitId method, of class Fruit.
-     */
-    @Test(timeout= 1000)
-    public void testGetFruitId() throws InterruptedException {
-        System.out.println("getFruitId");
-        Fruit instance = new Fruit();
-        instance.setFruitId("12");
-        String expResult = "12";
-        String result = instance.getFruitId();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-    }
-
-    /**
-     * Test of setFruitId method, of class Fruit.
+     * Test of setFruitId method, of class Order.
      */
     @Test(timeout= 1000)
     public void testSetFruitId() {
         System.out.println("setFruitId");
         String fruitId = "12";
-        Fruit instance = new Fruit();
+        Order instance = new Order();
         instance.setFruitId(fruitId);
         // TODO review the generated test code and remove the default call to fail.
         assertEquals(fruitId, instance.getFruitId());
     }
 
     /**
-     * Test of setFruitName method, of class Fruit.
+     * Test of setFruitName method, of class Order.
      */
     @Test(timeout= 1000)
     public void testSetFruitName() {
         System.out.println("setFruitName");
         String fruitName = "apple";
-        Fruit instance = new Fruit();
+        Order instance = new Order();
         instance.setFruitName(fruitName);
         // TODO review the generated test code and remove the default call to fail.
         assertEquals(fruitName, instance.getFruitName());
     }
 
     /**
-     * Test of setQuantity method, of class Fruit.
+     * Test of setQuantity method, of class Order.
      */
     @Test(timeout= 1000)
     public void testSetQuantity() {
         System.out.println("setQuantity");
         int quantity = 3;
-        Fruit instance = new Fruit();
+        Order instance = new Order();
         instance.setQuantity(quantity);
         // TODO review the generated test code and remove the default call to fail.
         assertEquals(quantity, instance.getQuantity());
-    }
-
-    /**
-     * Test of setOrigin method, of class Fruit.
-     */
-    @Test(timeout= 1000)
-    public void testSetOrigin() {
-        System.out.println("setOrigin");
-        String origin = "vn";
-        Fruit instance = new Fruit();
-        instance.setOrigin(origin);
-        // TODO review the generated test code and remove the default call to fail.
-        assertEquals(origin, instance.getOrigin());
     }
     
 }

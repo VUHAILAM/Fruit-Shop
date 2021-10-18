@@ -2,8 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
  */
-package lamvhhe130764;
+package longdthe140396;
 
+import lamvhhe130764.*;
 import java.util.concurrent.TimeUnit;
 import model.Fruit;
 import org.junit.After;
