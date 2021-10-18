@@ -1,30 +1,11 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Fpt%20course/SWT301/Lab%202.1/Fruit-Shop/src/common/DataInput.java</file>
-            <file>file:/D:/Fpt%20course/SWT301/Lab%202.1/Fruit-Shop/src/controller/UserManager.java</file>
-            <file>file:/D:/Fpt%20course/SWT301/Lab%202.1/Fruit-Shop/src/controller/FruitManager.java</file>
-            <file>file:/D:/Fpt%20course/SWT301/Lab%202.1/Fruit-Shop/src/controller/OrderManager.java</file>
-            <file>file:/D:/Fpt%20course/SWT301/Lab%202.1/Fruit-Shop/src/model/Fruit.java</file>
-            <file>file:/D:/Fpt%20course/SWT301/Lab%202.1/Fruit-Shop/test/anhtthe141110/DataInputTest.java</file>
-            <file>file:/D:/Fpt%20course/SWT301/Lab%202.1/Fruit-Shop/src/common/AppConstant.java</file>
-            <file>file:/D:/Fpt%20course/SWT301/Lab%202.1/Fruit-Shop/src/view/UserView.java</file>
+            <file>file:/D:/FU/Fall21/SWT301/PT1_code_update/Fruit-Shop/test/yennthhe141078/UserManagerTest.java</file>
+            <file>file:/D:/FU/Fall21/SWT301/PT1_code_update/Fruit-Shop/src/controller/OrderManager.java</file>
+            <file>file:/D:/FU/Fall21/SWT301/PT1_code_update/Fruit-Shop/src/controller/UserManager.java</file>
         </group>
     </open-files>
 </project-private>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/home/lamvu/Desktop/SWT/Fruit-Shop/src/model/User.java</file>
-            <file>file:/home/lamvu/Desktop/SWT/Fruit-Shop/src/model/Order.java</file>
-            <file>file:/home/lamvu/Desktop/SWT/Fruit-Shop/test/lamvhhe130764/OrderTest.java</file>
-        </group>
-    </open-files>
-</project-private>
->>>>>>> bc0e8871c0f413bb30ae871bfad5a29cb5bd3ada

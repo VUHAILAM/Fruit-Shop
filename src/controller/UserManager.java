@@ -17,6 +17,7 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 import model.User;
 
 /**
@@ -24,7 +25,8 @@ import model.User;
  * @author kiennt
  */
 public class UserManager {
-     // Vì list của user cập nhập liên tục mỗi lần đọc file nên bỏ final
+    // Vì list của user cập nhập liên tục mỗi lần đọc file nên bỏ final
+
     private ArrayList<User> userList = new ArrayList<>();
 
     // Tuan Anh thêm phần này để cập nhập id của user
@@ -33,12 +35,11 @@ public class UserManager {
         new User().setCount(userList.size());
     }
     //
-    
 
     // Tuan Anh sua ham nay de tra ve mot list user
     public static List<String> getListAccounts() {
         List<String> listUsers = null;
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(
+        try ( BufferedReader br = new BufferedReader(new InputStreamReader(
                 new FileInputStream(AppConstant.USER_DATA), StandardCharsets.UTF_8));) {
             listUsers = new ArrayList<>();
             String line;
@@ -52,11 +53,11 @@ public class UserManager {
     }
     //
 
-     //YenNTHHE141078
+    //YenNTHHE141078
     public static boolean checkLogin(User user) {
         File f = new File(AppConstant.USER_DATA);
         List<String[]> listUser = new ArrayList<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(f))) {
+        try ( BufferedReader reader = new BufferedReader(new FileReader(f))) {
             String line = null;
             while ((line = reader.readLine()) != null) {
                 String[] userInfo = line.split("\\|");
@@ -71,6 +72,12 @@ public class UserManager {
                     }
                 }
             }
+            if (checkUsername(user.getUserName())) {
+                return false;
+            }
+            if (checkPassword(user.getPassword())) {
+                return false;
+            }
             for (int i = 0; i < listUser.size() - 1; i++) {
                 if (user.getUserName().equals(listUser.get(i)[1].trim()) && user.getPassword().equals((listUser.get(i)[2].trim()))) {
                     user.setType(Integer.parseInt(listUser.get(i)[3].trim()));
@@ -84,7 +91,11 @@ public class UserManager {
         return false;
     }
 
+    //YenNTHHE141078
     public static void changePassword(User user, String newPassword) {
+        if (checkPassword(newPassword)){
+            return;
+        }
         List<String> listUsers = getListAccounts();
         if (listUsers != null && !listUsers.isEmpty()) {
             for (int i = 0; i < listUsers.size(); i++) {
@@ -94,12 +105,12 @@ public class UserManager {
                     user.setPassword(newPassword);
                 }
             }
-            saveAccount(listUsers);            
+            saveAccount(listUsers);
         }
     }
 
     public static void saveAccount(List<String> listUsers) {
-        try (FileOutputStream fos = new FileOutputStream(new File(AppConstant.USER_DATA))) {
+        try ( FileOutputStream fos = new FileOutputStream(new File(AppConstant.USER_DATA))) {
             for (String user : listUsers) {
                 fos.write(user.getBytes());
                 fos.write("\n".getBytes());
@@ -107,11 +118,11 @@ public class UserManager {
         } catch (IOException ex) {
         }
     }
-    
+
     // Tuan Anh bổ sung hàm này để trả về một list user
     public static ArrayList<User> getUserList() {
         ArrayList<User> listUsers = null;
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(
+        try ( BufferedReader br = new BufferedReader(new InputStreamReader(
                 new FileInputStream(AppConstant.USER_DATA), StandardCharsets.UTF_8));) {
             listUsers = new ArrayList<>();
             String line;
@@ -187,11 +198,11 @@ public class UserManager {
             }
         }
     }
-    
+
     //YenNTHHE141078
     public void reloadUserList() {
         File f = new File(AppConstant.USER_DATA);
-        try (BufferedReader reader = new BufferedReader(new FileReader(f))) {
+        try ( BufferedReader reader = new BufferedReader(new FileReader(f))) {
             String line = null;
             while ((line = reader.readLine()) != null) {
                 String[] userInfo = line.split("\\|");
@@ -202,10 +213,10 @@ public class UserManager {
         } catch (IOException ex) {
         }
     }
-    
+
     //YenNTHHE141078
     public void saveToFile() {
-        try (FileOutputStream fos = new FileOutputStream(new File(AppConstant.USER_DATA))) {
+        try ( FileOutputStream fos = new FileOutputStream(new File(AppConstant.USER_DATA))) {
             for (User users : userList) {
                 String user = users.toString();
                 fos.write(user.getBytes());
@@ -213,5 +224,15 @@ public class UserManager {
             }
         } catch (IOException ex) {
         }
+    }
+
+    //YenNTHHE141078
+    private static boolean checkUsername(String input) {
+        return Pattern.compile("[A-Za-z][.*]{5,}").matcher(input).find() ? true : false;
+    }
+
+    //YenNTHHE141078
+    private static boolean checkPassword(String input) {
+        return Pattern.compile("[A-Za-z0-9]{6,}").matcher(input).find() ? true : false;
     }
 }
