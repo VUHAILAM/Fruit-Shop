@@ -40,7 +40,7 @@ public class OrderTest {
     /**
      * Test of setFruitId method, of class Order.
      */
-    @Test
+    @Test(timeout= 1000)
     public void testSetFruitId() {
         System.out.println("setFruitId");
         String fruitId = "12";
@@ -53,7 +53,7 @@ public class OrderTest {
     /**
      * Test of setFruitName method, of class Order.
      */
-    @Test
+    @Test(timeout= 1000)
     public void testSetFruitName() {
         System.out.println("setFruitName");
         String fruitName = "apple";
@@ -66,7 +66,7 @@ public class OrderTest {
     /**
      * Test of setQuantity method, of class Order.
      */
-    @Test
+    @Test(timeout= 1000)
     public void testSetQuantity() {
         System.out.println("setQuantity");
         int quantity = 3;
