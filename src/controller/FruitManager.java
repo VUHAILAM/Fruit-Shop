@@ -70,7 +70,7 @@ public class FruitManager {
         while (true) {
             String fruitId = DataInput.checkInputString("Enter fruit id: ");
             if (!DataInput.fruitExisted(fruitList, fruitId)) {
-                System.err.println("Id does not exist!");
+                System.out.println("Id does not exist!");
                 return;
             } else {
                 for (Fruit fruit : fruitList) {

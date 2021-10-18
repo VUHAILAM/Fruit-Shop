@@ -84,18 +84,18 @@ public class DataInput {
     public static String checkInputUsername(ArrayList<User> userList, String msg) {
         while (true) {
             String username = checkInputString(msg);
-
+            System.out.println(username);
             if (username.length() >= 5 && Character.isLetter(username.charAt(0))) {
                 for (User user : userList) {
                     if (user.getUserName().equalsIgnoreCase(username)) {
-                        System.err.println("Username must be unique");
+                        System.out.println("Username must be unique");
                         break;
                     } else {
                         return username;
                     }
                 }
             } else {
-                System.err.println("userName has >= 5 chars, unique, & must start with a letter character");
+                System.out.println("userName has >= 5 chars, unique, & must start with a letter character");
             }
         }
     }

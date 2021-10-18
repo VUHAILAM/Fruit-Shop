@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="DESKTOP-UT5IAQ1" name="anhtthe141110.DataInputTest" skipped="0" tests="3" time="0.063" timestamp="2021-10-10T13:30:53">
+<testsuite errors="1" failures="0" hostname="DESKTOP-UT5IAQ1" name="anhtthe141110.DataInputTest" skipped="0" tests="3" time="0.084" timestamp="2021-10-18T16:00:30">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="US" />
-    <property name="javac.test.classpath" value="C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar:C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar:build/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="javac.test.classpath" value="/home/lamvu/Desktop/SWT/mockito-core-4.0.0.jar:/home/lamvu/Desktop/SWT/byte-buddy-1.11.19.jar:/home/lamvu/Desktop/SWT/byte-buddy-agent-1.11.19.jar:/home/lamvu/Desktop/SWT/objenesis-3.2.jar:/home/lamvu/Desktop/SWT/powermock-api-mockito-common-1.6.6.jar:/home/lamvu/Desktop/SWT/mockito-inline-3.8.0.jar:build/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar:C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar:C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar:C:\Users\Lenovo\Downloads\jar_files\mockito-core-3.8.0.jar:C:\Users\Lenovo\Downloads\jar_files\byte-buddy-1.10.20.jar:C:\Users\Lenovo\Downloads\jar_files\byte-buddy-agent-1.10.20.jar:C:\Users\Lenovo\Downloads\jar_files\objenesis-3.1.jar" />
     <property name="libs.jsf20.maven-pom" value="" />
     <property name="libs.DataBindingME.src" value="C:\Program Files\NetBeans 8.2\mobility\sources\netbeans_databindingme-src.zip" />
+    <property name="javac.test.sourcepath" value="D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build\empty" />
     <property name="libs.spring-webmvc4.0.src" value="" />
     <property name="javac.includes" value="anhtthe141110/DataInputTest.java" />
     <property name="ant.core.lib" value="C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar" />
@@ -22,10 +23,12 @@
     <property name="netbeans.autoupdate.version" value="1.23" />
     <property name="libs.EclipseLink-GlassFish-v3.classpath" value="C:\Program Files\glassfish-4.1.1\glassfish\modules\org.eclipse.persistence.antlr.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\org.eclipse.persistence.asm.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\org.eclipse.persistence.core.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\org.eclipse.persistence.dbws.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\org.eclipse.persistence.jpa.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\org.eclipse.persistence.jpa.jpql.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\org.eclipse.persistence.jpa.modelgen.processor.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\org.eclipse.persistence.moxy.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\org.eclipse.persistence.oracle.jar;C:\Program Files\glassfish-4.1.1\glassfish\modules\javax.persistence.jar" />
     <property name="libs.javaee-web-api-6.0.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee-web-api-6.0.jar" />
+    <property name="file.reference.objenesis-3.2.jar" value="/home/lamvu/Desktop/SWT/objenesis-3.2.jar" />
     <property name="libs.DataBindingME-PIM.maven-pom" value="" />
     <property name="libs.Java-EE-GlassFish-v3-Prelude.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
     <property name="javac.profile.cmd.line.arg" value="" />
     <property name="jdk.home" value="C:\Program Files\Java\jdk1.8.0_261" />
+    <property name="file.reference.powermock-api-mockito-common-1.6.6.jar" value="/home/lamvu/Desktop/SWT/powermock-api-mockito-common-1.6.6.jar" />
     <property name="libs.javac-api.src" value="" />
     <property name="javadoc.noindex" value="false" />
     <property name="libs.jpa2-persistence.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar" />
@@ -49,9 +52,10 @@
     <property name="libs.JWSAntTasks.maven-pom" value="" />
     <property name="libs.jstl.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jstl-api.jar" />
     <property name="libs.testng.src" value="" />
-    <property name="file.reference.mockito-core-4.0.0.jar" value="C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar" />
+    <property name="file.reference.mockito-core-4.0.0.jar" value="/home/lamvu/Desktop/SWT/mockito-core-4.0.0.jar" />
     <property name="libs.spring-webmvc3.0.src" value="" />
     <property name="libs.restapi.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jaxrs-2.0\javax.ws.rs-api-2.0.jar" />
+    <property name="file.reference.objenesis-3.1.jar" value="C:\Users\Lenovo\Downloads\jar_files\objenesis-3.1.jar" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
     <property name="ant.file.LabPrj6_FruitShopMgmt" value="D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build.xml" />
     <property name="libs.jaxb.maven-pom" value="" />
@@ -64,13 +68,15 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner anhtthe141110.DataInputTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build\test\results\TEST-anhtthe141110.DataInputTest.xml crashfile=D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build\junitvmwatcher8593219894362288821.properties propsfile=D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build\junit6234628747799735978.properties" />
+    <property name="file.reference.byte-buddy-agent-1.11.19.jar" value="/home/lamvu/Desktop/SWT/byte-buddy-agent-1.11.19.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner anhtthe141110.DataInputTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build\test\results\TEST-anhtthe141110.DataInputTest.xml crashfile=D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build\junitvmwatcher2042477962284531024.properties propsfile=D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build\junit1199260047964569987.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
     <property name="manifest.encoding" value="UTF-8" />
     <property name="ap.supported.internal" value="true" />
     <property name="java.failonerror" value="true" />
+    <property name="run.modulepath" value="" />
     <property name="libs.javaee-endorsed-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.jaxws21.javadoc" value="C:\Program Files\NetBeans 8.2\java\docs\jaxws-api-doc.zip" />
     <property name="libs.spring-webmvc4.0.javadoc" value="" />
@@ -78,7 +84,7 @@
     <property name="user.country" value="US" />
     <property name="manifest.file" value="manifest.mf" />
     <property name="javadoc.encoding" value="UTF-8" />
-    <property name="javac.classpath" value="C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar:C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar" />
+    <property name="javac.classpath" value="/home/lamvu/Desktop/SWT/mockito-core-4.0.0.jar:/home/lamvu/Desktop/SWT/byte-buddy-1.11.19.jar:/home/lamvu/Desktop/SWT/byte-buddy-agent-1.11.19.jar:/home/lamvu/Desktop/SWT/objenesis-3.2.jar:/home/lamvu/Desktop/SWT/powermock-api-mockito-common-1.6.6.jar:/home/lamvu/Desktop/SWT/mockito-inline-3.8.0.jar" />
     <property name="libs.jsp-compilation-syscp.src" value="" />
     <property name="libs.JAVADB_DRIVER_LABEL.src" value="" />
     <property name="libs.spring-framework400.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-aop-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-aspects-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-beans-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-build-src-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-context-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-context-support-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-core-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-expression-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-framework-bom-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-instrument-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-instrument-tomcat-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-jdbc-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-jms-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-messaging-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-orm-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-oxm-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-test-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-tx-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-web-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-webmvc-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-webmvc-portlet-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-websocket-4.0.1.RELEASE.jar" />
@@ -87,10 +93,12 @@
     <property name="build.compiler.emacs" value="true" />
     <property name="libs.javaee-web-api-6.0.src" value="" />
     <property name="libs.jsp-compilation-syscp.classpath" value="C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
+    <property name="javac.modulepath" value="" />
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed" />
     <property name="libs.Comet-GlassFish-v3.maven-pom" value="" />
     <property name="libs.groovy-all.src" value="" />
     <property name="test.includes" value="anhtthe141110/DataInputTest.java" />
+    <property name="&gt;&gt;&gt;&gt;&gt;&gt;&gt;" value="bc0e8871c0f413bb30ae871bfad5a29cb5bd3ada" />
     <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans 8.2\platform\core\asm-all-5.0.1.jar;C:\Program Files\NetBeans 8.2\platform\core\core-base.jar;C:\Program Files\NetBeans 8.2\platform\core\core.jar;C:\Program Files\NetBeans 8.2\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\NetBeans 8.2\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\NetBeans 8.2\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files\NetBeans 8.2\nb\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\core_nb.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\core_nb_ja.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\core_nb_pt_BR.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\core_nb_ru.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\core_nb_zh_CN.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\org-netbeans-upgrader_ru.jar;C:\Program Files\NetBeans 8.2\nb\core\locale\org-netbeans-upgrader_zh_CN.jar" />
     <property name="java.vm.specification.version" value="1.8" />
     <property name="libs.hibernate4-support.src" value="" />
@@ -99,6 +107,7 @@
     <property name="libs.groovy-all.maven-pom" value="" />
     <property name="netbeans.productversion" value="NetBeans IDE 8.2 (Build 201609300101)" />
     <property name="libs.jaxws21.src" value="" />
+    <property name="application.title" value="LabPrj6_FruitShopMgmt" />
     <property name="do.archive" value="true" />
     <property name="netbeans.autoupdate.language" value="en" />
     <property name="java.vendor" value="Oracle Corporation" />
@@ -108,10 +117,11 @@
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="\" />
     <property name="libs.Java-EE-GlassFish-v3-Prelude.maven-pom" value="" />
-    <property name="javac.includesfile.binary" value="D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\null1773926981" />
+    <property name="javac.includesfile.binary" value="D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\null915364670" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
-    <property name="javac.test.processorpath" value="C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar:C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar:build/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="javac.test.processorpath" value="/home/lamvu/Desktop/SWT/mockito-core-4.0.0.jar:/home/lamvu/Desktop/SWT/byte-buddy-1.11.19.jar:/home/lamvu/Desktop/SWT/byte-buddy-agent-1.11.19.jar:/home/lamvu/Desktop/SWT/objenesis-3.2.jar:/home/lamvu/Desktop/SWT/powermock-api-mockito-common-1.6.6.jar:/home/lamvu/Desktop/SWT/mockito-inline-3.8.0.jar:build/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar:C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar:C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar:C:\Users\Lenovo\Downloads\jar_files\mockito-core-3.8.0.jar:C:\Users\Lenovo\Downloads\jar_files\byte-buddy-1.10.20.jar:C:\Users\Lenovo\Downloads\jar_files\byte-buddy-agent-1.10.20.jar:C:\Users\Lenovo\Downloads\jar_files\objenesis-3.1.jar" />
+    <property name="file.reference.byte-buddy-agent-1.10.20.jar" value="C:\Users\Lenovo\Downloads\jar_files\byte-buddy-agent-1.10.20.jar" />
     <property name="netbeans.buildnumber" value="201609300101" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="build.generated.sources.dir" value="build/generated-sources" />
@@ -146,16 +156,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
     <property name="libs.jaxws21.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\FastInfoset.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\gmbal-api-only.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\ha-api.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\javax.mail_1.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\jaxws-rt.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\jaxws-tools.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\management-api.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\mimepull.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\policy.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\saaj-impl.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\stax-ex.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\stax2-api.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\streambuffer.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\woodstox-core-asl.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\api\jaxws-api.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\api\jsr181-api.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\api\javax.annotation.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\jaxws22\api\saaj-api.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
     <property name="libs.struts.src" value="" />
+    <property name="compile.on.save" value="false" />
     <property name="apple.awt.graphics.UseQuartz" value="true" />
     <property name="user.language" value="en" />
     <property name="testng.mode" value="testng" />
     <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
     <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="file.reference.mockito-core-4.0.0.jar-1" value="C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar" />
+    <property name="application.vendor" value="lamvu" />
     <property name="test.binaryincludes" value="&lt;nothing&gt;" />
     <property name="manifest.available" value="true" />
     <property name="libs.primefaces.javadoc" value="" />
     <property name="libs.spring-framework300.maven-pom" value="" />
-    <property name="run.test.classpath" value="C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar:C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar:build/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="run.test.classpath" value="/home/lamvu/Desktop/SWT/mockito-core-4.0.0.jar:/home/lamvu/Desktop/SWT/byte-buddy-1.11.19.jar:/home/lamvu/Desktop/SWT/byte-buddy-agent-1.11.19.jar:/home/lamvu/Desktop/SWT/objenesis-3.2.jar:/home/lamvu/Desktop/SWT/powermock-api-mockito-common-1.6.6.jar:/home/lamvu/Desktop/SWT/mockito-inline-3.8.0.jar:build/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar:C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar:C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar:C:\Users\Lenovo\Downloads\jar_files\mockito-core-3.8.0.jar:C:\Users\Lenovo\Downloads\jar_files\byte-buddy-1.10.20.jar:C:\Users\Lenovo\Downloads\jar_files\byte-buddy-agent-1.10.20.jar:C:\Users\Lenovo\Downloads\jar_files\objenesis-3.1.jar:build/test/classes" />
     <property name="ant.project.invoked-targets" value="test-single" />
     <property name="test.binaryexcludes" value="" />
     <property name="libs.swing-layout.javadoc" value="C:\Program Files\NetBeans 8.2\platform\docs\swing-layout-1.0.4-doc.zip" />
@@ -165,6 +178,7 @@
     <property name="https.nonProxyHosts" value="localhost|127.0.0.1|DESKTOP-UT5IAQ1" />
     <property name="libs.PostgreSQLDriver.maven-pom" value="" />
     <property name="java.class.version" value="52.0" />
+    <property name="file.reference.mockito-core-3.8.0.jar" value="C:\Users\Lenovo\Downloads\jar_files\mockito-core-3.8.0.jar" />
     <property name="libs.JAVADB_DRIVER_LABEL.classpath" value="C:\Program Files\glassfish-4.1.1\javadb\lib\derby.jar;C:\Program Files\glassfish-4.1.1\javadb\lib\derbyclient.jar;C:\Program Files\glassfish-4.1.1\javadb\lib\derbynet.jar" />
     <property name="libs.hibernate4-persistencemodelgen.maven-pom" value="" />
     <property name="libs.javaee-endorsed-api-6.0.src" value="" />
@@ -174,6 +188,7 @@
     <property name="ant.file.type.LabPrj6_FruitShopMgmt-impl" value="file" />
     <property name="runtime.encoding" value="UTF-8" />
     <property name="libs.javac-api.maven-pom" value="" />
+    <property name="file.reference.byte-buddy-1.11.19.jar" value="/home/lamvu/Desktop/SWT/byte-buddy-1.11.19.jar" />
     <property name="file.encoding.pkg" value="sun.io" />
     <property name="sun.cpu.endian" value="little" />
     <property name="libs.JAXB-ENDORSED.javadoc" value="" />
@@ -182,14 +197,14 @@
     <property name="libs.spring-framework300.src" value="" />
     <property name="libs.jstl.src" value="" />
     <property name="empty.dir" value="D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build\empty" />
-    <property name="version-output" value="java version &quot;1.8" />
+    <property name="&lt;&lt;&lt;&lt;&lt;&lt;&lt;" value="HEAD" />
     <property name="test.binarytestincludes" value="" />
     <property name="libs.hibernate4-persistencemodelgen.src" value="" />
     <property name="javadoc.preview" value="true" />
     <property name="libs.jpa20-persistence.javadoc" value="C:\Program Files\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre" />
     <property name="libs.jsp-compilation.src" value="" />
-    <property name="debug.test.classpath" value="C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar:C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar:build/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="debug.test.classpath" value="/home/lamvu/Desktop/SWT/mockito-core-4.0.0.jar:/home/lamvu/Desktop/SWT/byte-buddy-1.11.19.jar:/home/lamvu/Desktop/SWT/byte-buddy-agent-1.11.19.jar:/home/lamvu/Desktop/SWT/objenesis-3.2.jar:/home/lamvu/Desktop/SWT/powermock-api-mockito-common-1.6.6.jar:/home/lamvu/Desktop/SWT/mockito-inline-3.8.0.jar:build/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar:C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar:C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar:C:\Users\Lenovo\Downloads\jar_files\mockito-core-3.8.0.jar:C:\Users\Lenovo\Downloads\jar_files\byte-buddy-1.10.20.jar:C:\Users\Lenovo\Downloads\jar_files\byte-buddy-agent-1.10.20.jar:C:\Users\Lenovo\Downloads\jar_files\objenesis-3.1.jar:build/test/classes" />
     <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
     <property name="libs.javaee-api-6.0.src" value="" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
@@ -203,8 +218,9 @@
     <property name="http.nonProxyHosts" value="localhost|127.0.0.1|DESKTOP-UT5IAQ1" />
     <property name="libs.junit_4.javadoc" value="C:\Program Files\NetBeans 8.2\platform\docs\junit-4.12-javadoc.jar" />
     <property name="libs.EclipseLink-GlassFish-v3.maven-pom" value="" />
+    <property name="javac.test.modulepath" value="" />
     <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
-    <property name="run.classpath" value="C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar:C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar:build/classes" />
+    <property name="run.classpath" value="/home/lamvu/Desktop/SWT/mockito-core-4.0.0.jar:/home/lamvu/Desktop/SWT/byte-buddy-1.11.19.jar:/home/lamvu/Desktop/SWT/byte-buddy-agent-1.11.19.jar:/home/lamvu/Desktop/SWT/objenesis-3.2.jar:/home/lamvu/Desktop/SWT/powermock-api-mockito-common-1.6.6.jar:/home/lamvu/Desktop/SWT/mockito-inline-3.8.0.jar:build/classes" />
     <property name="jna.boot.library.name" value="jnidispatch-422" />
     <property name="libs.javaee-endorsed-api-6.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.javaee-api-7.0.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\modules\ext\javaee-api-7.0.jar" />
@@ -217,11 +233,12 @@
     <property name="libs.restapi.src" value="" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="libs.j2me_common_ant.javadoc" value="" />
+    <property name="file.reference.byte-buddy-1.10.20.jar" value="C:\Users\Lenovo\Downloads\jar_files\byte-buddy-1.10.20.jar" />
     <property name="javac.deprecation" value="false" />
     <property name="javadoc.use" value="true" />
     <property name="sun.java2d.noddraw" value="true" />
     <property name="libs.jsp-compiler.classpath" value="C:\Program Files\NetBeans 8.2\enterprise\ant\extra\jspcompile.jar" />
-    <property name="javac.processorpath" value="C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar:C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar" />
+    <property name="javac.processorpath" value="/home/lamvu/Desktop/SWT/mockito-core-4.0.0.jar:/home/lamvu/Desktop/SWT/byte-buddy-1.11.19.jar:/home/lamvu/Desktop/SWT/byte-buddy-agent-1.11.19.jar:/home/lamvu/Desktop/SWT/objenesis-3.2.jar:/home/lamvu/Desktop/SWT/powermock-api-mockito-common-1.6.6.jar:/home/lamvu/Desktop/SWT/mockito-inline-3.8.0.jar" />
     <property name="libs.hamcrest.maven-pom" value="" />
     <property name="javac.compilerargs" value="" />
     <property name="ant.file" value="D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build.xml" />
@@ -246,11 +263,12 @@
     <property name="jna.loaded" value="true" />
     <property name="junit.available" value="true" />
     <property name="ant.file.type.LabPrj6_FruitShopMgmt" value="file" />
+    <property name="do.jlink" value="false" />
     <property name="libs.jsp-compiler.src" value="" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin" />
     <property name="have.sources" value="true" />
     <property name="libs.hamcrest.javadoc" value="" />
-    <property name="debug.classpath" value="C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar:C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar:build/classes" />
+    <property name="debug.classpath" value="/home/lamvu/Desktop/SWT/mockito-core-4.0.0.jar:/home/lamvu/Desktop/SWT/byte-buddy-1.11.19.jar:/home/lamvu/Desktop/SWT/byte-buddy-agent-1.11.19.jar:/home/lamvu/Desktop/SWT/objenesis-3.2.jar:/home/lamvu/Desktop/SWT/powermock-api-mockito-common-1.6.6.jar:/home/lamvu/Desktop/SWT/mockito-inline-3.8.0.jar:build/classes" />
     <property name="javac.external.vm" value="true" />
     <property name="javadoc.private" value="false" />
     <property name="test.src.dir" value="test" />
@@ -262,6 +280,7 @@
     <property name="dist.jar" value="dist/LabPrj6_FruitShopMgmt.jar" />
     <property name="libs.spring-framework400.maven-pom" value="" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="debug.test.modulepath" value="" />
     <property name="ant.project.name" value="LabPrj6_FruitShopMgmt" />
     <property name="netbeans.hash.code" value="unique=NB_CND_EXTIDE_GFMOD_GROOVY_JAVA_JC_MOB_PHP_WEBCOMMON_WEBEE0e14e7102-8608-4e6a-a756-3f447439dc8a_8ee3b085-106d-4e36-b0b7-85022bb30370" />
     <property name="netbeans.default_userdir_root" value="C:\Users\Lenovo\AppData\Roaming\NetBeans" />
@@ -271,11 +290,11 @@
     <property name="libs.spring-framework400.javadoc" value="" />
     <property name="libs.CopyLibs.javadoc" value="" />
     <property name="org.openide.specification.version" value="6.2" />
+    <property name="javadoc.html5" value="false" />
     <property name="libs.DataBindingME-PIM.classpath" value="C:\Program Files\NetBeans 8.2\mobility\modules\ext\netbeans_databindingme_pim.jar" />
     <property name="user.home" value="C:\Users\Lenovo" />
     <property name="annotation.processing.processors.list" value="" />
     <property name="libs.primefaces.maven-pom" value="" />
-    <property name="debug-args-line" value="-Xdebug" />
     <property name="libs.javaee-api-6.0.maven-pom" value="" />
     <property name="libs.JWSAntTasks.src" value="" />
     <property name="jar.index" value="false" />
@@ -283,13 +302,15 @@
     <property name="libs.spring-framework300.javadoc" value="" />
     <property name="libs.absolutelayout.javadoc" value="" />
     <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="jlink.strip" value="false" />
     <property name="do.archive+main.class.available" value="true" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="libs.javac-api.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\nb-javac-api.jar" />
     <property name="java.version" value="1.8.0_261" />
-    <property name="run.jvmargs.ide" value="" />
     <property name="javadoc.version" value="false" />
+    <property name="run.jvmargs.ide" value="" />
     <property name="libs.MySQLDriver.javadoc" value="" />
+    <property name="javac.processormodulepath" value="" />
     <property name="org.openide.version" value="deprecated" />
     <property name="source.encoding" value="UTF-8" />
     <property name="platform.java" value="C:\Program Files\Java\jdk1.8.0_261\jre/bin/java" />
@@ -306,8 +327,8 @@
     <property name="libs.jaxb.src" value="" />
     <property name="jdk.launcher.addexports.5" value="java.management/sun.management=ALL-UNNAMED" />
     <property name="jdk.launcher.addexports.4" value="java.desktop/com.sun.java.swing.plaf.windows=ALL-UNNAMED" />
-    <property name="jdk.launcher.addexports.3" value="java.desktop/sun.awt.im=ALL-UNNAMED" />
     <property name="work.dir" value="D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop" />
+    <property name="jdk.launcher.addexports.3" value="java.desktop/sun.awt.im=ALL-UNNAMED" />
     <property name="libs.jaxb.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
     <property name="jdk.launcher.addexports.2" value="java.desktop/java.awt.peer=ALL-UNNAMED" />
     <property name="jdk.launcher.addexports.1" value="java.base/jdk.internal.jrtfs=ALL-UNNAMED" />
@@ -332,9 +353,10 @@
     <property name="built-jar.properties" value="D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build\built-jar.properties" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="src.dir" value="src" />
+    <property name="javac.test.compilerargs" value="" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
     <property name="libs.jpa2-persistence.src" value="" />
     <property name="annotation.processing.enabled" value="true" />
-    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
     <property name="libs.jsf20.src" value="" />
     <property name="libs.jpa20-persistence.src" value="" />
     <property name="libs.DataBindingME-SVG.maven-pom" value="" />
@@ -346,6 +368,7 @@
     <property name="libs.primefaces.src" value="" />
     <property name="dist.dir" value="dist" />
     <property name="libs.groovy-all.javadoc" value="" />
+    <property name="jlink.launcher" value="false" />
     <property name="testng.debug.mode" value="" />
     <property name="libs.groovy-all.classpath" value="C:\Program Files\NetBeans 8.2\groovy\modules\ext\groovy-all.jar" />
     <property name="javac.fork" value="true" />
@@ -354,12 +377,14 @@
     <property name="debug-transport-by-os" value="dt_shmem" />
     <property name="sun.jnu.encoding" value="Cp1252" />
     <property name="libs.MySQLDriver.src" value="" />
-    <property name="java.runtime.version" value="1.8.0_261-b12" />
+    <property name="run.test.jvmargs" value="" />
     <property name="build.test.results.dir" value="build/test/results" />
+    <property name="java.runtime.version" value="1.8.0_261-b12" />
     <property name="default.javac.target" value="1.8" />
     <property name="libs.junit_4.classpath" value="C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar" />
     <property name="user.timezone" value="" />
     <property name="nb.junit.single" value="false" />
+    <property name="do.jar" value="true" />
     <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
     <property name="libs.JAVADB_DRIVER_LABEL.javadoc" value="" />
     <property name="netbeans.dirs" value="C:\Program Files\NetBeans 8.2\nb;C:\Program Files\NetBeans 8.2\ergonomics;C:\Program Files\NetBeans 8.2\ide;C:\Program Files\NetBeans 8.2\extide;C:\Program Files\NetBeans 8.2\java;C:\Program Files\NetBeans 8.2\apisupport;C:\Program Files\NetBeans 8.2\webcommon;C:\Program Files\NetBeans 8.2\websvccommon;C:\Program Files\NetBeans 8.2\enterprise;C:\Program Files\NetBeans 8.2\mobility;C:\Program Files\NetBeans 8.2\profiler;C:\Program Files\NetBeans 8.2\python;C:\Program Files\NetBeans 8.2\php;C:\Program Files\NetBeans 8.2\identity;C:\Program Files\NetBeans 8.2\harness;C:\Program Files\NetBeans 8.2\cnd;C:\Program Files\NetBeans 8.2\cndext;C:\Program Files\NetBeans 8.2\dlight;C:\Program Files\NetBeans 8.2\groovy;C:\Program Files\NetBeans 8.2\extra;C:\Program Files\NetBeans 8.2\javacard;C:\Program Files\NetBeans 8.2\javafx" />
@@ -367,6 +392,8 @@
     <property name="libs.jstl.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
     <property name="libs.metro.src" value="" />
+    <property name="endorsed.classpath" value="" />
+    <property name="file.reference.mockito-inline-3.8.0.jar" value="/home/lamvu/Desktop/SWT/mockito-inline-3.8.0.jar" />
     <property name="libs.absolutelayout.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\AbsoluteLayout.jar" />
     <property name="excludes" value="" />
     <property name="libs.metro.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\metro\webservices-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\metro\webservices-extra-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\metro\webservices-extra.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\metro\webservices-rt.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\metro\webservices-tools.jar" />
@@ -374,25 +401,26 @@
     <property name="libs.jpa2-persistence.javadoc" value="C:\Program Files\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="libs.DataBindingME.javadoc" value="C:\Program Files\NetBeans 8.2\mobility\modules\docs\netbeans_databindingme-api.zip" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
-    <property name="java.class.path" value="C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar;C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar;D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build\classes;C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar;C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar;D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build\test\classes;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit4.jar" />
-    <property name="do.mkdist" value="true" />
+    <property name="java.class.path" value="D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build\classes;C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar;C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\Lenovo\Downloads\mockito-core-4.0.0.jar;C:\Users\Lenovo\Downloads\mockito-inline-4.0.0.jar;C:\Users\Lenovo\Downloads\jar_files\mockito-core-3.8.0.jar;C:\Users\Lenovo\Downloads\jar_files\byte-buddy-1.10.20.jar;C:\Users\Lenovo\Downloads\jar_files\byte-buddy-agent-1.10.20.jar;C:\Users\Lenovo\Downloads\jar_files\objenesis-3.1.jar;D:\Fpt course\SWT301\Lab 2.1\Fruit-Shop\build\test\classes;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit4.jar" />
     <property name="libs.absolutelayout.src" value="" />
     <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar" />
     <property name="os.version" value="10.0" />
     <property name="application.args" value="" />
     <property name="libs.EclipseLink-GlassFish-v3.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.javaee-api-7.0.maven-pom" value="" />
-    <property name="main.class.available" value="true" />
     <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="main.class.available" value="true" />
     <property name="sun.desktop" value="windows" />
+    <property name="jlink.launcher.name" value="LabPrj6_FruitShopMgmt" />
     <property name="libs.hibernate4-persistence.src" value="" />
     <property name="libs.hibernate4-support.maven-pom" value="" />
     <property name="libs.Comet-GlassFish-v3.src" value="" />
     <property name="libs.restlib.javadoc" value="" />
-    <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\api\jaxb-api.jar" />
     <property name="nb.internal.action.name" value="run.single" />
-    <property name="libs.eclipselink.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\eclipselink.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="run.test.modulepath" value="" />
     <property name="libs.javaee-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.eclipselink.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\eclipselink.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
     <property name="libs.beans-binding.javadoc" value="C:\Program Files\NetBeans 8.2\java\docs\beansbinding-1.2.1-doc.zip" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
@@ -402,8 +430,8 @@
     <property name="libs.hamcrest.src" value="" />
     <property name="run.jvmargs" value="" />
     <property name="libs.hibernate4-persistence.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar" />
-    <property name="dist.archive.excludes" value="" />
     <property name="libs.JAXB-ENDORSED.src" value="" />
+    <property name="dist.archive.excludes" value="" />
     <property name="libs.testng.javadoc" value="C:\Program Files\NetBeans 8.2\platform\docs\testng-6.8.1-javadoc.zip" />
     <property name="libs.DataBindingME-PIM.src" value="C:\Program Files\NetBeans 8.2\mobility\sources\netbeans_databindingme_pim-src.zip" />
     <property name="user.script" value="" />
@@ -415,18 +443,26 @@
     <property name="libs.CopyLibs.src" value="" />
     <property name="build.dir" value="build" />
     <property name="libs.jsp-compilation.classpath" value="C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\Program Files\NetBeans 8.2\enterprise\modules\ext\jstl-api.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-launcher.jar" />
+    <property name="debug.modulepath" value="" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
-    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
     <property name="file.encoding" value="Cp1252" />
-    <property name="jdkBug6558476" value="false" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
     <property name="javadoc.nonavbar" value="false" />
+    <property name="jdkBug6558476" value="false" />
     <property name="libs.spring-webmvc4.0.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\spring-4\spring-webmvc-4.0.1.RELEASE.jar" />
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
+    <property name="" value="======" />
   </properties>
-  <testcase classname="anhtthe141110.DataInputTest" name="testCheckInputIntLimit_int_int" time="0.005" />
-  <testcase classname="anhtthe141110.DataInputTest" name="testCheckInputInt" time="0.0" />
+  <testcase classname="anhtthe141110.DataInputTest" name="testCheckInputIntLimit_int_int" time="0.016" />
+  <testcase classname="anhtthe141110.DataInputTest" name="testCheckInputInt" time="0.006">
+    <error message="No line found" type="java.util.NoSuchElementException">java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1540)
+	at common.DataInput.checkInputInt(DataInput.java:109)
+	at anhtthe141110.DataInputTest.testCheckInputInt(DataInputTest.java:147)
+</error>
+  </testcase>
   <testcase classname="anhtthe141110.DataInputTest" name="testCheckInputDouble" time="0.0" />
   <system-out><![CDATA[checkInputIntLimit
 Enter again: checkInputInt

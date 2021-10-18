@@ -74,14 +74,15 @@ public class DataInputTest {
 //        // TODO review the generated test code and remove the default call to fail.
 //        fail("The test case is a prototype.");
 //    }
-    /**
-     * Test of checkInputIntLimit method, of class DataInput.
-     */
+    
     void setupMock() {
         Scanner mockScanner = Mockito.mock(Scanner.class);
         Mockito.when(mockScanner.nextLine()).thenReturn("32");
     }
-
+    
+    /**
+     * Test of checkInputIntLimit method, of class DataInput. Lab 2.1
+     */
     @Test(expected = Exception.class)
     public void testCheckInputIntLimit_int_int() throws Exception {
         System.out.println("checkInputIntLimit");
@@ -92,58 +93,33 @@ public class DataInputTest {
         System.setIn(in);
         //int expResult = 32;
         int result = DataInput.checkInputIntLimit(min, max);
-    }
-    //assertEquals(expResult, result);
-    // TODO review the generated test code and remove the default call to fail.
-    // fail("The test case is a prototype.");    
+    }  
 
-    /**
-     * Test of checkInputString method, of class DataInput.
-     */
-//    @Test
-//    public void testCheckInputString() {
-//        System.out.println("checkInputString");
-//        String smg = "";
-//        String expResult = "";
-//        String result = DataInput.checkInputString(smg);
-//        assertEquals(expResult, result);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-    /**
-     * Test of checkInputUsername method, of class DataInput.
-     */
-//    @Test
-//    public void testCheckInputUsername() {
-//        System.out.println("checkInputUsername");
-//        ArrayList<User> userList = null;
-//        String msg = "";
-//        String expResult = "";
-//        String result = DataInput.checkInputUsername(userList, msg);
-//        assertEquals(expResult, result);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-    /**
-     * Test of checkInputInt method, of class DataInput.
-     */
-    @Test(expected = Exception.class)
+    // Lab 2.2
+    @Test
     public void testCheckInputInt() throws Exception{
         System.out.println("checkInputInt");
         String smg = "";
-        int expResult = 0;
-
+        
+        // Test case 1: 
         String input = "abc";
         InputStream in = new ByteArrayInputStream(input.getBytes());
         System.setIn(in);
         //int expResult = 32;
         int result = DataInput.checkInputInt(smg);
-        //assertEquals(expResult, result);
+        
+        // Test case2:
+        String input1 = "32";
+        InputStream in1 = new ByteArrayInputStream(input1.getBytes());
+        System.setIn(in1);
+        int expResult = 32;
+        int result1 = DataInput.checkInputInt(smg);
+        assertEquals(expResult, result1);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
     /**
-     * Test of checkInputDouble method, of class DataInput.
+     * Test of checkInputDouble method, of class DataInput. Lab 2.1
      */
     @Test(expected = Exception.class)
     public void testCheckInputDouble() throws Exception{
