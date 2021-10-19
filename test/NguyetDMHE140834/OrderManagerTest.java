@@ -8,6 +8,7 @@ package NguyetDMHE140834;
 import controller.OrderManager;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Hashtable;
 import model.Fruit;
 import model.Order;
 import org.junit.After;
@@ -83,7 +84,7 @@ public class OrderManagerTest {
         instance.getHT();
         HashMap<String, ArrayList<Order>> expResult = null;
         //expResult.getOrDefault(this, instance.getListOrder());
-        HashMap<String, ArrayList<Order>> result = instance.getHT();
+        Hashtable<String, ArrayList<Order>> result = instance.getHT();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
        // fail("The test case is a prototype.");
